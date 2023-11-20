@@ -12,10 +12,15 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "Class_monorepo",
+  "name": "classonorepo",
   "packageManager": "npm@9.5.1",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.6.0",
+    "recoil": "^0.7.7"
+  }
 }
